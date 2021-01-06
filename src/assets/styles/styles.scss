@@ -4,6 +4,7 @@
 @import "media-queries";
 @import "utils";
 @import "base";
+
 .container{
   min-height:100vh;
   display: grid;
@@ -13,9 +14,33 @@
   "footer" auto/auto;
 }
 header{
+  display: flex;
   grid-area: header;
-  background: green;
-  padding: 20px;
+  padding: 2rem;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background: var(--dark);
+  align-items: center;
+  a {
+    color: white;
+  }
+}
+.header-brand{
+  font-size: 4rem;
+  font-weight: 700;
+}
+ul{
+  display:flex;
+  li{
+    .header-nav{
+      font-size: 1.8rem;
+      padding: 0 10px;
+    }
+    .active{
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
 }
 .content{
   grid-area: content;
@@ -23,5 +48,9 @@ header{
 }
 footer{
   grid-area: footer;
-  padding: 20px;
+  padding: 2rem;
+  background: var(--dark-grey);
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
 }
