@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="867617a7-4cc9-434a-a7e4-19734e7b84dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_classes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,34 +101,45 @@
       <updated>1609907890493</updated>
       <workItem from="1609907893092" duration="2587000" />
       <workItem from="1609910736270" duration="8729000" />
-      <workItem from="1610018906620" duration="1239000" />
+      <workItem from="1610018906620" duration="3617000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="663" y="533" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609914403498">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="663" y="533" key="#com.intellij.fileTypes.FileTypeChooser/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1609914403498" />
-    <state width="1746" height="395" key="GridCell.Tab.0.bottom" timestamp="1609919470990">
+    <state width="1746" height="395" key="GridCell.Tab.0.bottom" timestamp="1610020218603">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="1746" height="395" key="GridCell.Tab.0.bottom/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1609919470990" />
-    <state width="1746" height="395" key="GridCell.Tab.0.center" timestamp="1609919470990">
+    <state width="1746" height="395" key="GridCell.Tab.0.bottom/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1610020218603" />
+    <state width="1746" height="395" key="GridCell.Tab.0.center" timestamp="1610020218603">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="1746" height="395" key="GridCell.Tab.0.center/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1609919470990" />
-    <state width="1746" height="395" key="GridCell.Tab.0.left" timestamp="1609919470990">
+    <state width="1746" height="395" key="GridCell.Tab.0.center/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1610020218603" />
+    <state width="1746" height="395" key="GridCell.Tab.0.left" timestamp="1610020218603">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="1746" height="395" key="GridCell.Tab.0.left/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1609919470990" />
-    <state width="1746" height="395" key="GridCell.Tab.0.right" timestamp="1609919470990">
+    <state width="1746" height="395" key="GridCell.Tab.0.left/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1610020218603" />
+    <state width="1746" height="395" key="GridCell.Tab.0.right" timestamp="1610020218603">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="1746" height="395" key="GridCell.Tab.0.right/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1609919470990" />
+    <state width="1746" height="395" key="GridCell.Tab.0.right/-1080.40.1080.1880/0.40.3440.1400@0.40.3440.1400" timestamp="1610020218603" />
     <state x="392" y="388" key="SettingsEditor" timestamp="1609910924718">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>

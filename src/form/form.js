@@ -30,12 +30,11 @@ form.addEventListener("submit", async event =>{
 
 const formIsValid = article =>{
     errors=[];
-    if(!article.author || !article.category || !article.content){
+
+    if(!article.author || !article.category || !article.content || !article.img || !article.title){
         errors.push('Vous devez renseigner tous les champs')
-    }
-    if(article.content.length < 20){
-        errors.push("Le contenu de votre est trop court !")
-    }
+    }else{ errors=[] }
+
     if(errors.length){
         let errorHTML=""
         errors.forEach(e =>{
