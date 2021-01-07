@@ -45,6 +45,7 @@ ul{
 .content{
   grid-area: content;
   padding: 20px;
+  background: var(--divider);
 }
 footer{
   grid-area: footer;
