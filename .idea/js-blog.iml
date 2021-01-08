@@ -4,5 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="83f4286022" level="application" />
   </component>
 </module>

@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="867617a7-4cc9-434a-a7e4-19734e7b84dd" name="Default Changelist" comment="modify fixes">
+    <list default="true" id="867617a7-4cc9-434a-a7e4-19734e7b84dd" name="Default Changelist" comment="category and style">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/js-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js-blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +53,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -100,7 +102,7 @@
       <workItem from="1609907893092" duration="2587000" />
       <workItem from="1609910736270" duration="8729000" />
       <workItem from="1610018906620" duration="7908000" />
-      <workItem from="1610066179698" duration="733000" />
+      <workItem from="1610066179698" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="modify fixes">
       <created>1610066327683</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610066327683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="category and style">
+      <created>1610067073361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610067073361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify fixes" />
+    <MESSAGE value="category and style" />
+    <option name="LAST_COMMIT_MESSAGE" value="category and style" />
   </component>
 </project>
