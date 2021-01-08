@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="867617a7-4cc9-434a-a7e4-19734e7b84dd" name="Default Changelist" comment="dynamic categories">
-      <change afterPath="$PROJECT_DIR$/src/form/form.mmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
@@ -103,7 +103,7 @@
       <workItem from="1609910736270" duration="8729000" />
       <workItem from="1610018906620" duration="7908000" />
       <workItem from="1610066179698" duration="4615000" />
-      <workItem from="1610076340832" duration="2346000" />
+      <workItem from="1610076340832" duration="3581000" />
     </task>
     <task id="LOCAL-00001" summary="modify fixes">
       <created>1610066327683</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610068795276</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="filter category">
+      <created>1610078735078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610078735079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +155,8 @@
     <MESSAGE value="modify fixes" />
     <MESSAGE value="category and style" />
     <MESSAGE value="dynamic categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic categories" />
+    <MESSAGE value="filter category" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter category" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
