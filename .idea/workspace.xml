@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="867617a7-4cc9-434a-a7e4-19734e7b84dd" name="Default Changelist" comment="category and style">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/js-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js-blog.iml" afterDir="false" />
+    <list default="true" id="867617a7-4cc9-434a-a7e4-19734e7b84dd" name="Default Changelist" comment="dynamic categories">
+      <change afterPath="$PROJECT_DIR$/src/form/form.mmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Empty Mind Map" />
       </list>
     </option>
   </component>
@@ -62,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.igormaznitsa.ideamindmap.settings.MindMapSettingsComponent" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -102,7 +102,8 @@
       <workItem from="1609907893092" duration="2587000" />
       <workItem from="1609910736270" duration="8729000" />
       <workItem from="1610018906620" duration="7908000" />
-      <workItem from="1610066179698" duration="2539000" />
+      <workItem from="1610066179698" duration="4615000" />
+      <workItem from="1610076340832" duration="2346000" />
     </task>
     <task id="LOCAL-00001" summary="modify fixes">
       <created>1610066327683</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610067073361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dynamic categories">
+      <created>1610068795276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610068795276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify fixes" />
     <MESSAGE value="category and style" />
-    <option name="LAST_COMMIT_MESSAGE" value="category and style" />
+    <MESSAGE value="dynamic categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamic categories" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
