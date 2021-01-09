@@ -16,30 +16,30 @@ selectElement.addEventListener("change", () => {
 
 const createArticles = () => {
   const articlesDOM = articles
-      .filter(article => {
-        if (filter) {
-          return article.category === filter;
-        } else {
-          return true;
-        }
-      })
-      .map(article => {
-        const articleDOM = document.createElement("div");
-        articleDOM.classList.add("article");
-        articleDOM.innerHTML = `
+    .filter(article => {
+      if (filter) {
+        return article.category === filter;
+      } else {
+        return true;
+      }
+    })
+    .map(article => {
+      const articleDOM = document.createElement("div");
+      articleDOM.classList.add("article");
+      articleDOM.innerHTML = `
 <img
   src="${article.img}"
   alt="profile"
 />
 <h2>${article.title}</h2>
 <p class="article-author">${article.author} - ${new Date(
-            article.createdAt
-        ).toLocaleDateString("fr-FR", {
-          weekday: "long",
-          day: "2-digit",
-          month: "long",
-          year: "numeric"
-        })}</p>
+        article.createdAt
+      ).toLocaleDateString("fr-FR", {
+        weekday: "long",
+        day: "2-digit",
+        month: "long",
+        year: "numeric"
+      })}</p>
 <p class="article-content">
   ${article.content}
 </p>
@@ -48,8 +48,8 @@ const createArticles = () => {
   <button class="btn btn-primary" data-id=${article._id} >Modifier</button>
 </div>
 `;
-        return articleDOM;
-      });
+      return articleDOM;
+    });
   articleContainerElement.innerHTML = "";
   articleContainerElement.append(...articlesDOM);
   const deleteButtons = articleContainerElement.querySelectorAll(".btn-danger");
@@ -64,17 +64,17 @@ const createArticles = () => {
   deleteButtons.forEach(button => {
     button.addEventListener("click", async event => {
       const result = await openModal(
-          "Etes vous sur de vouloir supprimer votre article ?"
+        "Etes vous sur de vouloir supprimer votre article ?"
       );
       if (result === true) {
         try {
           const target = event.target;
           const articleId = target.dataset.id;
           const response = await fetch(
-              `https://restapi.fr/api/article/${articleId}`,
-              {
-                method: "DELETE"
-              }
+            `https://restapi.fr/api/article/${articleId}`,
+            {
+              method: "DELETE"
+            }
           );
           const body = await response.json();
           fetchArticle();
@@ -125,17 +125,17 @@ const createMenuCategories = () => {
   }, {});
 
   const categoriesArr = Object.keys(categories)
-      .map(category => {
-        return [category, categories[category]];
-      })
-      .sort((c1, c2) => c1[0].localeCompare(c2[0]));
+    .map(category => {
+      return [category, categories[category]];
+    })
+    .sort((c1, c2) => c1[0].localeCompare(c2[0]));
   displayMenuCategories(categoriesArr);
 };
 
 const fetchArticle = async () => {
   try {
     const response = await fetch(
-        `https://restapi.fr/api/article?sort=createdAt:${sortBy}`
+      `https://restapi.fr/api/article?sort=createdAt:${sortBy}`
     );
     articles = await response.json();
     createArticles();
